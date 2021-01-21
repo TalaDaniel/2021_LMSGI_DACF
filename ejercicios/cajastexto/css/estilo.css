@@ -1,0 +1,36 @@
+body {color:black}
+
+div {width:500px; 
+	 height:300px;
+	 margin-bottom: 10px;
+	 border:solid black 5px;
+	 }
+	 
+	 @font-face{
+	font-family: Brightons, cursive;
+	src: url(font\brightons\Brightons.tff);
+	}
+
+	div:nth-child(1):first-line{
+	word-spacing: 15px;
+	}
+	div:nth-child(2){
+	width: 500px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	font-family: Brightons, cursive;
+	font-size: 1.5em;
+	}
+	div:nth-child(3):first-line{
+	letter-spacing: 15px;
+	}
+	
+	div:nth-child(1){
+	font-size: 2em;
+	font-family: "MV Boli";
+	}
+	
+	div:nth-child(3){
+	font-size: 2em;
+	font-family: 'Indie Flower', cursive;
+	}

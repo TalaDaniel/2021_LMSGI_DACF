@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head>
+<title>Lista de suscripciones</title>
+<dateCreated>Wed, 08 Feb 2012 12:11:52 +0100</dateCreated>
+<dateModified>Wed, 08 Feb 2012 13:11:52 +0100</dateModified>
+<ownerName>Nombre del propietario</ownerName>
+<ownerEmail>nombre@dominio.com</ownerEmail>
+</head>
+<body>
+<outline text="ELPAIS.com – Portada"
+description="ELPAIS.com - Portada"
+title="ELPAIS.com - Portada"
+language="es-es" type="rss" version="RSS2"/>
+<outline text="ELPAIS.com - Sección Deportes"
+description="ELPAIS.com - Sección Deportes"
+title="ELPAIS.com - Sección Deportes"
+language="es-es" type="rss" version="RSS2"
+xmlUrl="view-source:http://www.elpais.com/rss/feed.html?feedId=1007"/>
+</body>
+</opml>

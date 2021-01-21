@@ -1,0 +1,118 @@
+﻿body{
+font-family: calibri,arial,sans-serif;
+margin-right: 275px;
+background-position: top right;
+background-repeat: no-repeat;
+}
+
+h1{
+color: #FF4550;
+background-color: orange;
+text-transform: uppercase;
+}
+
+div,p{
+padding: 9px;
+margin-top: 9px;
+margin-bottom: 9px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.par1{
+background-color:lightblue;
+padding: 9px;
+color:#04B404;
+font-weight: bolder;
+}
+
+.static{
+border: solid 3px #E9967A;
+position: static;
+}
+
+.relative{
+position: relative;
+border: dotted 3px;
+border-color: #9932cc;
+left: 0px;
+}
+
+.fixed{
+border-style: dashed;
+border-color: #04b404;
+border-width: 3px;
+background-color:#FFB973;
+margin-bottom:99px;
+max-width:250px;
+position: fixed;
+right:0px;
+bottom:0px;
+}
+
+
+.relative1{
+border: solid 3px green;
+width:500px;
+height:150px;
+position:relative;
+}
+
+.absolute1{
+border: solid 3px #04B404;
+position:absolute;
+width: 250px;
+height: 75px;
+right: 6px;
+bottom: 6px;
+}
+
+.sticky{
+background-color: #008000;
+border: 3px solid #ADFF2F;
+border-radius: 25px;
+text-align: center;
+color: #ADFF2F;
+position: sticky;
+top: 0;
+}
+
+.container{
+position: relative;
+border: 3px solid #8B008B;
+}
+
+.topleft , .topright, .bottomleft, .bottomright, .center{
+position: absolute;
+font-size: 18px;
+font-variant: small-caps;
+font-weight: bolder;
+color: #8B008B;
+background-color: #FF9C00;
+border: 3px solid #8B008B;
+}
+
+.topleft{
+top: 4px;
+left: 9px;
+}
+
+.topright{
+top: 4px;
+right: 9px;
+}
+
+.bottomleft{
+bottom: 4px;
+left: 9px;
+}
+
+.bottomright{
+bottom: 4px;
+right: 9px;
+}
+
+.center{
+right: 50%;
+top: 50%;
+}

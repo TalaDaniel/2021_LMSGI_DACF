@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Creado por Daniel Castaño Freile -->
+<!-- Fecha: 26/10/2020 -->
+	<html lang="es">
+		<head>
+			<link rel="icon" href="../../images/logo.ico">
+			<meta charset="utf-8"/>
+			<title> HTML 04 Daniel Castaño Freile </title>
+		</head>
+			<body>
+				<header>
+					<h1 style="text-align:center">HOJA DE INSCRIPCIÓN</h1>
+					<h2 style="text-align:center">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+				</header>
+				<main>
+					<form action="registro.php" method="GET">
+						<fieldset style="background-color: #BBBBBB">
+						<legend style="border: 1px solid black; background-color: white">Datos Personales</legend>
+							<table>
+								<tr>
+									<td><label for="Nombre">Nombre:</label></td>
+									<td><label for="Apellidos">Apellidos:</label></td>
+									<td><label for="DNI">DNI</label></td>
+									<td><label for="Telefono">Teléfono</label></td>
+								</tr>
+								<tr>
+									<td><input name="Nombre" type="text" id="Nombre"></td>
+									<td><input name="Apellidos" type="text" id="Apellidos"></td>
+									<td><input name="DNI" type="text" id="DNI"></td>
+									<td><input name="Telefono" type="tel" id="Telefono" pattern="\([0-9]{3}\) [0-9]{3}[ -][0-9]{4}" placeholder="(000)000-0000"></td>
+								</tr>
+								<tr>
+									<td><label for="Localidad">Localidad de Nacimiento</label></td>
+									<td><label for="Provincia">Provincia:</label></td>
+									<td colspan="2"><label for="Fecha">Fecha de Nacimiento</label></td>
+								</tr>
+								<tr>
+									<td><input name="Localidad" type="text" id="Localidad"></td>
+									<td>
+										<select id="Provincia">
+											<option value="Zamora">Zamora</option>
+											<option value="Leon">Leon</option>
+											<option value="Valladolid">Valladolid</option>
+											<option value="Salamanca">Salamanca</option>
+											<option value="Avila">Avila</option>
+											<option value="Soria">Soria</option>
+											<option value="Burgos">Burgos</option>
+											<option value="Palencia">Palencia</option>
+											<option value="Segovia">Segovia</option>
+										</select>
+									</td>
+									<td colspan="2"><input type="date" name="Fecha" id="Fecha"></td>
+								</tr>
+								<tr>
+									<td colspan="2"><label for="Direccion">Direccion</label></td>
+									<td colspan="2"><label for="Codigo">Código Postal:</label></td>
+								</tr>
+								<tr>
+									<td colspan="2"><input name="Direccion" type="text" id="Direccion" size="40"></td>
+									<td colspan="2"><input name="Codigo" type="text" id="Codigo" placeholder="00000"></td>
+								</tr>
+							</table>
+						</fieldset>
+						<fieldset style="background-color: rgb(241, 194, 156)">
+						<legend style="border: 1px solid black; background-color: white">Forma de Acceso</legend>
+							<table>
+								<tr>
+									<td>
+										<input type="radio" name="casilla" id="1">Directo
+										<ul style="list-style:none;">
+											<li style="list-style:none;">
+												<label for="Bachillerato1"><input type="radio" name="casilla2" id="Bachillerato1">Bachillerato modalidad</label>
+												<input name="Bachillerato1" type="text"><br>
+												<label for="Bachillerato2"><input type="radio" name="casilla2" id="Bachillerato2">Bachillerato Experimental</label>
+												<br>
+												<label for="COU"><input type="radio" name="casilla2" id="COU">COU Opción</label>
+												<input name="COU" type="text"><br>
+												<label for="Tecnico"><input type="radio" name="casilla2" id="Tecnico">Título de Técnico (FPGM)</label>
+												<input name="Tecnico" type="text"><br>
+												<label for="Universitaria"><input type="radio" name="casilla2" id="Universitaria">Titulación Universitaria</label>
+												<input name="Universitaria" type="text"><br>
+												<label for="Otros"><input type="radio" name="casilla2" id="Otros">Otros (especifique)</label>
+												<input name="Otros" type="text"><br>
+											</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="radio" name="casilla" id="2">Prueba Libre
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+						<fieldset style="background-color: rgb(182, 126, 126)">
+						<legend style="border: 1px solid black; background-color: white">Forma de Acceso</legend>
+							<table>
+								<tr>
+									<td>
+										<label for="Fotocopia"><input type="checkbox" name="casilla3" id="Fotocopia">Fotocopia DNI</label>
+									</td>
+									<td>
+										<label for="Certificado"><input type="checkbox" name="casilla4" id="Certificado">Certificado Académico</label>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<label for="OtrosDoc"><input type="checkbox" name="casilla5" id="OtrosDoc">Otros Documentos (especifique)</label>
+										<input name="OtrosDoc" type="text">
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+						<br>
+						<input type="submit" value="Enviar Solicitud">
+					</form>
+				</main>
+			</body>
+	</html>

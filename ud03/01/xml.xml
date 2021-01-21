@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!DOCTYPE documento SYSTEM "01.dtd"> 
+
+<!-- Esto es un comentario --> 
+
+<documento> 
+
+<p>Mi primer <negrita valor="1">documento XML</negrita></p> 
+
+<p>Comienza con la etiqueta &lt;documento&gt;</p> 
+
+<p>A continuación añadimos una etiqueta de documento vacio</p> 
+
+<imagen archivo="imagen.png"/> 
+
+<p>Añadimos una etiqueta CDATA</p> 
+
+<ejemplo> 
+
+<![CDATA[ Esto es una sección de datos en la que podemos  
+
+escribir sin que el parser lo analice]]> 
+
+ 
+
+</ejemplo> 
+
+</documento> 

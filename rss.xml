@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>IES Los Sauces:Onda Salix</title>
+        <link>http://ieslossauces.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=51</link>
+        <description>Onda Salix: Para que te enteres</description>
+        <category>radio</category>
+        <category>educacion</category>
+        <language>es-es</language>
+        <copyright>2020 IES los Sauces. All rights reserved </copyright>
+        <pubDate>Mon, 11 Jan 2021 20:38:48 +0100</pubDate>
+        <lastBuildDate>Wed, 13 Jan 2021 23:59:00 +0100</lastBuildDate>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+             <hour>6</hour>
+            <hour>7</hour>
+            <hour>8</hour>
+            
+        </skipHours>
+        <image>
+            <title>IES Los Sauces:Onda Salix</title>
+            <url>http://192.168.0.150/images/paraqueteenteres.jpg</url>
+            <link>http://ieslossauces.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=51</link>
+            <height>141</height>
+            <description>logo de onda salix para que te enteres</description>
+         </image>
+        <item>
+            <title>Onda Salix nº1</title>
+            <link>https://www.mixcloud.com/ondasalix/no1-para-que-te-enteres-onda-salix/</link>
+            <guid isPermaLink="true">https://www.mixcloud.com/ondasalix/no1-para-que-te-enteres-onda-salix/</guid>
+            <description>
+                <![CDATA[
+                <h1 style="color:red">ONDA SALIX Nº1- PARA QUE TE ENTERES</h1>
+                <h2>Onda Salix estrena su programa "Para que te enteres", 
+                     con buena música y buen rollo.</h2>
+                <p> Podrás escuchar 3 secciones de lo más interesante:</p>
+                <ul>
+                    <li>En ¿Cuál es el siguiente número? La maravillosa sucesión de Fibonacci</li>
+                    <li>En "Unos y Ceros", ¿es lo mismo wifi que internet?</li>
+                    <li>Día especial 25 N. ¿Qué sabes y qué opinas de ese día? Yolanda, trabajadora social de la Cruz Roja te saca de dudas.</li>
+                    <li>El proyecto Erasmus K3 en el que el centro está participando.</li>
+                </ul>   
+                <iframe width="100%" height="60"
+               src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fondasalix%2Fno1-para-que-te-enteres-onda-salix%2F" frameborder="0">
+              </iframe>            
+            ]]>
+            </description>
+            <author>autor1@educa.jcyl.es</author>
+            <category>educacion</category>
+            <enclosure url="http://192.168.0.150/images/paraqueteenteres.jpg" length="8261" type="image/jpg" />
+            <pubDate>Mon, 11 Jan 2021 20:38:48 +0100</pubDate>
+        </item>
+        <item>
+            <title>Onda Salix nº2</title>
+            <link>https://www.mixcloud.com/ondasalix/no2-para-que-te-enteres-onda-salix/</link>
+            <guid isPermaLink="true">https://www.mixcloud.com/ondasalix/no2-para-que-te-enteres-onda-salix/</guid>
+            <description>
+            <![CDATA[
+                 <h1 style="color:red">ONDA SALIX Nº2- PARA QUE TE ENTERES</h1>
+                 <p>Una nueva edición del programa "Para Que Te Enteres" de Onda Salix, la radio del IES "LOS SAUCES".
+                    Noticias, mitología griega, matemáticas, aula empresa, unos y ceros, paloteo...</p>
+                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fondasalix%2Fno2-para-que-te-enteres-onda-salix%2F" frameborder="0"></iframe>
+                ]]>
+                </description>
+            <author>autordos@educa.jcyl.es</author>
+            <category>matematicas</category>
+            <enclosure url="http://192.168.0.150/images/paraqueteenteres.jpg" length="8261" type="image/jpg" />
+            <pubDate>Mon, 11 Jan 2021 20:38:48 +0100</pubDate>
+        </item>
+        <item>
+            <title>Onda Salix nº3</title>
+            <link>https://go.ivoox.com/rf/62208741</link>
+            <guid isPermaLink="true">https://go.ivoox.com/rf/62208741</guid>
+            <description>
+            <![CDATA[
+                 <h1 style="color:red">ONDA SALIX Nº3- PARA QUE TE ENTERES</h1>
+                 <h2>Noticias. Mitología</h2>
+                <iframe id='audio_62208741' frameborder='0' allowfullscreen='' scrolling='no' height='200' 
+                 style='border:1px solid #EEE; box-sizing:border-box; width:100%;' 
+                 src="https://www.ivoox.com/player_ej_62208741_4_1.html?c1=ff6600"></iframe>
+                ]]>
+                </description>
+            <author>autortres@educa.jcyl.es</author>
+            <category>mitologia</category>
+            <category>noticias</category>
+            <pubDate>Wed, 13 Jan 2021 20:45:18 +0100</pubDate>
+        </item>
+        <item>
+            <title>Onda Salix nº4</title>
+            <link>https://go.ivoox.com/rf/62853064</link>
+            <guid isPermaLink="true">https://go.ivoox.com/rf/62853064</guid>
+            <description>
+            <![CDATA[
+                 <h1 style="color:red">ONDA SALIX Nº4- PARA QUE TE ENTERES</h1>
+                 <p>Cerramos el trimestre con la emisión en directo del programa cargado de nuevas secciones, 
+                      balance del año de la directora del centro, villancicos y también siguen las secciones de siempre. 
+                     No te lo pierdas, en televisión Benavente no se lo han perdido.</p>
+                     <iframe id='audio_62853064' frameborder='0' allowfullscreen='' scrolling='no' height='200'
+                      style='border:1px solid #EEE; box-sizing:border-box; width:100%;' 
+                     src="https://www.ivoox.com/player_ej_62853064_4_1.html?c1=ff6600"></iframe>
+                ]]>
+                </description>
+            <author>autorcuatro@educa.jcyl.es</author>
+            <category>navidad</category>
+            <pubDate>Wed, 13 Jan 2021 23:13:18 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

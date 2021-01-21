@@ -1,0 +1,119 @@
+@font-face{
+font-family: Brightons, cursive;
+src: url(font\Goldman\Brightons.tff);
+}
+@font-face{
+font-family: Brightons, cursive;
+src: url(font\brightons\Brightons.tff);
+}
+@font-face{
+font-family: Brightons, cursive;	
+src: url(font\brightons\Brightons.tff);
+}
+
+
+body{
+background-image: url('../images/Le_petit_prince.png');
+background-position: top right;
+background-repeat: no-repeat;
+margin-right: 300px;
+}
+
+h1{
+text-transform: capitalize;
+/*font-size: 2em;*/
+font-family: Goldman, cursive;
+text-decoration: underline;
+text-decoration-style: wavy;
+color:Crimson;
+letter-spacing: 5px;
+}
+p{
+background-color:crimson;
+font-family: cursive;
+font-style: italic;
+padding: 5px 0;
+
+}
+p span{
+color:#fff;
+font-family: cursive;
+font-style: italic;
+}
+
+p:first-letter{
+font-size:1.2em;
+}
+.lista1 > li , .lista2 > li , .lista3 > li {
+/*border-style: dotted;
+border-color: Crimson;
+border-width: 1px;*/
+border: dotted Crimson 1px;
+}
+.lista1{
+list-style-position:inside;
+list-style-type: circle;
+}
+.lista2{
+list-style-position:outside;
+list-style-type: square;
+font-family:
+}
+.lista3{
+list-style-position:inside;
+list-style-image: url('../images/sqpurple.png');
+font-family:
+}
+.lista4{
+background-color: lightsalmon;
+border: dashed 2px darkred;
+list-style-type: none;
+padding:5px 19px;
+font-family:
+}
+.lista4 li{
+background-color:darkred;
+color: lightsalmon;
+margin-top: 3px;
+
+}
+.lista4 li:before{
+content:'#';
+color:darkred;
+width: 1em;
+display: inline-block;
+margin-left: -1em;
+}
+.lista5{
+background-color: lightsalmon;
+list-style-type:none;
+color:darkred;
+border-left-color: darkred;
+border-left-width: 7px;
+border-left-style: solid;
+padding: 5px;
+}
+.lista6{
+list-style-type: none;
+color:Crimson;
+margin: 0px;
+padding: 0px;
+}
+.lista6 li{
+border-style: dotted;
+border-color: darkred;
+border-width: 1px 1px 0px 1px;
+}
+.lista6 li:last-child{
+border-bottom-width: 1px;
+}
+
+.lista1 li:nth-child(even){
+font-family:Goldman-Regular;
+}
+.lista1 li:nth-child(odd){
+font-family:'Goldman-Bold';
+}
+
+
+

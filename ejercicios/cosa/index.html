@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 
+Creado por Daniel Castaño Freile 
+Fecha Creacion: 02/11/2020 
+Fecha Modificacion: 04/11/2020 
+-->
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Style </title>
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+		<style>
+			h1,p {padding: 10px;}
+			p {color:red;}
+			h1 .destacado {background-color: grey;}
+			#naranja {color:orange;}
+			span > span {background-color:green;}
+			li + li {color:blue;}
+			p:first-letter{text-transform:uppercase;font-size:30px}
+			p:after{content:".";}
+			p:before{content: url(../cosa/media/images/xbox.gif);}
+			li:nth-child(even){color:green;font-size:30px}
+			li:nth-child(odd){font-size:30px}
+			p[id*=anja]{text-transform:uppercase;}
+			a:hover {background-color:yellow;}
+			a:active {background-color:blue;}
+			a:visited {background-color:green;}
+		</style>
+	</head>
+	<body>
+	<h1 class="destacado"><a href="https://www.elmundo.es/deportes/futbol/champions-league/2020/11/05/5fa334fb21efa0c67d8b466a.html" Bienvenido a <span class="destacado">lenguaje de marcas</span></a></h1>
+	<p id="naranja">Hola Mundo</p>
+	<p class="destacado">Hola Mundo</p>
+	<p>Hola Mundo</p>
+	<p class="destacado">Hola Mundo</p>
+	<div>Hoy es <span>jueves <span>5/11/2020</span></span></div>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul>
+	
+	</body>
+</html>

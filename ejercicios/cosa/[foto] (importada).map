@@ -1,0 +1,13 @@
+<img src="[foto] (importada)" width="432" height="119" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:daw1 -->
+<area shape="rect" coords="8,4,85,107" alt="Imagen html" href="http://#" />
+<area shape="circle" coords="149,54,44" alt="Imagen Java" href="http://#" />
+<area shape="poly" coords="228,22,236,14,241,14,252,15,292,15,300,17,304,23,305,31,308,43,306,52,303,57,304,67,304,83,300,90,290,92,280,92,276,91,273,95,263,101,255,101,246,99,243,94,243,93,240,90,236,90,230,87,229,80,229,69,228,23" alt="Imagen cualquier cosa" href="http://#" />
+<area shape="poly" coords="337,48,372,13,412,52,374,91,334,55" alt="Imagen link" href="http://#" />
+</map>

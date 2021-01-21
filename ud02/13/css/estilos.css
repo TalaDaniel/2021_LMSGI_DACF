@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+ul, ol{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+@font-face{
+	font-family: 'FontAwesome';
+	src:url('../fonts/fontawesome/webfonts/fa-solid-900.woff');
+}
+
+header{
+	padding: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+header h1{
+	font-size: 30px; padding: 25px;
+}
+header h2{
+	font-size: 25px; padding: 20px; position: relative;
+}
+header h2:before{
+	content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+header h3{
+	font-size: 20px; padding: 15px;
+}
+header h4{
+	font-size: 15px; padding: 10px;
+}
+
+section {
+  float: left;
+  width: 33.33%;
+}
+
+main:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav li {
+	display:inline-block;
+}
+nav a:hover {
+	background-color:grey; color:white;
+}
+nav a{
+	 padding:20px;
+}
+
+article footer{
+	padding:10px;
+	padding-left:350px;
+	text-align:center;
+}
+footer{
+	padding:10px;
+	margin-left:50px;
+	text-align:center;
+}
+
+article header{
+	color:white;
+}
+article{
+	background-color: grey;
+	margin: 0px 10px 2px 0px;
+	border-radius: 5%;
+}
+
+article figure{
+	position:absolute;
+	left: 2px;
+	top:2px;
+}
+
+article .content{
+	position:relative; padding-left:125px;
+}
+
+article img{
+	width:120px;
+	height:120px;
+}
+
+article figcaption{
+	font-size:8px;
+	text-align:center;
+}
+
+
+
+
+
+

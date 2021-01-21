@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Radio Salix: IES los Sauces</title>
+		<link>http://ieslossauces.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=51</link>
+		<description>
+			<![CDATA[
+				<h1>Radio Salix: La Radio de IES los Sauces</h1>
+			]]>
+			
+		</description>
+		<item>
+			<title>Onda Salix nº 1</title>
+			<link>https://www.mixcloud.com/ondasalix/no1-para-que-te-enteres-onda-salix/</link>
+			<description>
+			<![CDATA[
+			<h2>Onda Salix estrena su programa "Para que te enteres", con buena música y buen rollo. </h2>
+			<p>Podrás escuchar 3 secciones de lo más interesante:</p>
+				<ul>
+					<li>En ¿Cuál es el siguiente número? La maravillosa sucesión de Fibonacci</li>
+					<li>En "Unos y Ceros", ¿es lo mismo wifi que internet?</li>
+					<li>Día especial 25 N. ¿Qué sabes y qué opinas de ese día? Yolanda, trabajadora social de la Cruz Roja te saca de dudas.</li>
+					<li>El proyecto Erasmus K3 en el que el centro está participando.</li>
+				</ul>
+				<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fondasalix%2Fno1-para-que-te-enteres-onda-salix%2F" frameborder="0" ></iframe>
+			]]>
+			</description>
+		</item>
+		<item>
+			<title>Onda Salix nº 2</title>
+			<link>https://www.mixcloud.com/ondasalix/no2-para-que-te-enteres-onda-salix/</link>
+			<description>
+			<![CDATA[
+			<h2>Una nueva edición del programa "Para Que Te Enteres" de Onda Salix</h2>
+				<ul>
+					<li>la radio del IES "LOS SAUCES". Noticias, mitología griega, matemáticas,</li>
+					<li>aula empresa, unos y ceros, paloteo...</li>
+				</ul>
+				<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fondasalix%2Fno2-para-que-te-enteres-onda-salix%2F" frameborder="0" ></iframe>
+			]]>
+			</description>
+		</item>
+		<item>
+			<title>Onda Salix nº 3</title>
+			<link>https://www.ivoox.com/n-3-para-te-enteres-audios-mp3_rf_62208741_1.html</link>
+			<description>
+			<![CDATA[
+			<h2>En esta edición de para que te enteres...</h2>
+				<ul>
+					<li>Noticias</li>
+					<li>Mitología</li>
+				</ul>
+				<iframe id='audio_62208741' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_62208741_4_1.html?c1=ff6600"></iframe>
+			]]>
+			</description>
+		</item>
+		<item>
+			<title>Onda Salix nº 4</title>
+			<link>https://www.ivoox.com/n-4-para-te-enteres-onda-audios-mp3_rf_62853064_1.html</link>
+			<description>
+			<![CDATA[
+			<h2>Cerramos el trimestre con la emisión en directo del programa cargado de nuevas secciones</h2>
+				<ul>
+					<li>balance del año de la directora del centro, villancicos y también siguen las</li>
+					<li>secciones de siempre. No te lo pierdas, en televisión Benavente no se lo han perdido.</li>
+				</ul>
+				<iframe id='audio_62853064' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_62853064_4_1.html?c1=ff6600"></iframe>
+			]]>
+			</description>
+		</item>
+	</channel>
+</rss>

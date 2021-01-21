@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+ul, ol {
+list-style:none;
+}
+
+a {
+text-decoration:none; 
+color: black;
+}
+
+@font-face {
+font-family: 'FontAwesome'; 
+src:url('../fonts/fontawesome/webfonts/fa-solid-900.woff');
+}
+ 
+img, figcaption {
+display:block;
+margin:auto;
+}
+
+#content { background-color:grey; }
+#content #izq { width:30%; float:left; background-color:grey;padding:20px;}
+#content #der { width:70%; float:right; background-color:yellow;}
+
+#content #izq .dato {
+padding:20px;
+}
+
+#content #der .dato {
+padding:20px;
+}
+
+#content #der .dato p{
+position: relative;
+left: 50px;
+}
+
+#content #izq .dato p{
+position: relative;
+left: 30px;
+}
+
+#content #der .dato span{
+position: relative;
+left: 50px;
+color: blue;
+font-style: italic;
+}
+
+#content #der .dato h3{
+position: relative;
+left: 50px;
+}
+
+#content #izq .dato span {
+font-weight:bold; 
+letter-spacing:5px;
+}
+
+#content #izq .dato:before {
+	position:relative;
+	font-family: 'FontAwesome'; 
+	width: 30px;
+	height:30px;
+	font-size:1.2em;
+	text-align:center;
+	line-height:30px;
+	color:white;
+	border:1px solid white;
+	border-radius:50px;
+	padding:5px;
+	background-color: black;
+	
+	top:0px;
+	left:-15px;
+	
+}
+
+#content #der .dato:before {
+	position:relative;
+	font-family: 'FontAwesome'; 
+	width: 30px;
+	height:30px;
+	font-size:1.2em;
+	text-align:center;
+	line-height:30px;
+	color:white;
+	border:1px solid white;
+	border-radius:50px;
+	padding:5px;
+	background-color: black;
+	
+	top:0px;
+	left:30px;
+	
+}
+
+#content #der .hotel:before{
+	content:'\f47e';	
+}
+
+#content #der .acceso:before{
+	content:'\f47e';	
+}
+
+#content #der .aplicaciones:before{
+	content:'\f47e';	
+}
+
+#content #der .carnet:before{
+	content:'\f47e';	
+}
+
+#content #der .nacionalidad:before{
+	content:'\f47e';	
+}
+
+#content #izq .direccion:before{
+	content:'\f041';	
+}
+#content #izq .telefono:before{
+	content:'\f10b';
+}
+#content #izq .e-mail:before{
+	content:'\f1fa';
+}
+#content #izq .fech_nac:before{
+	content:'\f1fd';
+}
+#content #izq .nacionalidad:before{
+	content:'\f0ac';
+}
+#content #izq .estado_civil:before{
+	content:'\f007';
+}
+#content #izq .dni:before{
+	content:'\f234';
+}
+#content #izq .disp_horaria:before{
+	content:'\f279';
+}
