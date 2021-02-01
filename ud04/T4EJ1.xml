@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email [
+    <!ELEMENT remitente (#PCDATA)>
+    <!ELEMENT destinatario (#PCDATA)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT fecha (dia,mes,anyo)>
+    <!ELEMENT ficherosAdj (nombre, tipo)>
+    <!ELEMENT email (remitente, destinatario+, fecha, asunto?, mensaje?, ficherosAdj*)>
+]>
+<email>
+	<remitente>ElPorche@gmail.com</remitente>
+	<destinatario>MiCoche@gmail.com</destinatario>
+        <destinatario>ElRico@gmail.com</destinatario>
+	<fecha>
+            <dia>22</dia>
+            <mes>04</mes>
+            <anyo>2021</anyo>
+        </fecha>
+	<asunto>Nuevo Coche</asunto>
+	<mensaje/>
+	<ficherosAdj>
+		<nombre>Daniel.pdf</nombre>
+		<tipo>application/pdf</tipo>
+	</ficherosAdj>
+        <ficherosAdj>
+		<nombre>imagen.png</nombre>
+		<tipo>image/png</tipo>
+	</ficherosAdj>
+</email>

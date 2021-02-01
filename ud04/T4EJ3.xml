@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hechosHistoricos SYSTEM '04_3.dtd'>
+
+<hechosHistoricos>
+    <evento>
+        <descripcion>Se Funda YouTube</descripcion>
+        <fecha>
+            <dia>15</dia>
+            <mes>2</mes>
+            <ano>2005</ano>
+        </fecha>
+    </evento>
+    <evento>
+        <descripcion>Se Funda Google</descripcion>
+        <fecha>
+            <dia>5</dia>
+            <mes>9</mes>
+            <ano>1998</ano>
+        </fecha>
+    </evento>
+    <evento>
+        <descripcion>Se Funda Facebook</descripcion>
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <ano>2004</ano>
+        </fecha>
+    </evento>
+</hechosHistoricos>
