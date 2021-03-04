@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT formulario (datos,consolas+,establecimiento)>
+<!ATTLIST formulario
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED>
+
+<!ELEMENT datos (nombre,direccion,email,telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT consolas (nintendo,playstation,xbox)*>
+<!ELEMENT nintendo EMPTY>
+<!ATTLIST nintendo
+    consola CDATA #REQUIRED>
+<!ELEMENT playstation EMPTY>
+<!ATTLIST playstation
+    consola CDATA #REQUIRED>
+<!ELEMENT xbox EMPTY>
+<!ATTLIST xbox
+    consola CDATA #REQUIRED>
+<!ELEMENT establecimiento (codigoPostal,satisfaccion,tiempoTecnologia)>
+<!ELEMENT codigoPostal EMPTY>
+<!ATTLIST codigoPostal
+    direccion CDATA #IMPLIED>
+<!ELEMENT satisfaccion EMPTY>
+<!ATTLIST satisfaccion
+    nota CDATA #REQUIRED>
+<!ELEMENT tiempoTecnologia EMPTY>
+<!ELEMENT uso EMPTY>
+<!ATTLIST uso
+    tiempo CDATA #IMPLIED>

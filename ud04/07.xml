@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+07 ....
+-->
+<!DOCTYPE grupo [
+  <!ELEMENT grupo (estudiante*)>
+  <!ATTLIST grupo
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+  <!ELEMENT  estudiante (#PCDATA)>
+  <!ATTLIST  estudiante cod ID #REQUIRED
+                        idref   IDREFS #IMPLIED>
+]>
+
+<grupo>
+    <estudiante cod="E1" idref="E2 E3">
+        Rodrigo
+    </estudiante>
+    <estudiante cod="E4" idref="E2">
+        Apa
+    </estudiante>
+    <estudiante cod="E2" >
+        Rodrigo Junior
+    </estudiante>
+    <estudiante cod="E3" >
+        Rodrigo III
+    </estudiante>
+    
+</grupo>

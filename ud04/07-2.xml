@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+07 ....
+-->
+<!DOCTYPE grupo [
+  <!ELEMENT grupo (estudiante*)>
+  <!ELEMENT  estudiante (#PCDATA)>
+  <!ATTLIST  estudiante cod ID #REQUIRED
+                        tutor1   IDREF #IMPLIED
+                        tutor2   IDREF #IMPLIED
+                        tutor3   IDREF #IMPLIED
+>
+]>
+
+<grupo>
+    <estudiante cod="E1" tutor1="E1" tutor2="E3">
+        Rodrigo
+    </estudiante>
+    <estudiante cod="E4" tutor1="E2">
+        Apa
+    </estudiante>
+    <estudiante cod="E2" >
+        Rodrigo Junior
+    </estudiante>
+    <estudiante cod="E3" >
+        Rodrigo III
+    </estudiante>
+    
+</grupo>

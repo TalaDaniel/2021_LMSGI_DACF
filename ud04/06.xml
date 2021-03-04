@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="06.css" ?>
+<!DOCTYPE lenguaje [
+    <!ELEMENT lenguaje (codigo+)>
+    <!ELEMENT codigo (nombre, ejemplo)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ejemplo (#PCDATA)>
+]>
+
+
+<lenguaje>
+    <codigo>
+        <nombre>HTML</nombre>
+        <ejemplo>
+            <![CDATA[
+            <h2>Lista de alumnos</h2
+             <ul>
+                <li>Pedro</li>
+                <li>Maria</li>
+                <li>Pepe</li>
+             <ul>
+             ]]>
+        </ejemplo>
+    </codigo>
+    <codigo>
+        <nombre>SQL</nombre>
+        <ejemplo>
+            <![CDATA[
+                select nombre, apellidos
+                from  alumnos
+                where provincia ="Zamora";
+             ]]>
+        </ejemplo>
+        
+    </codigo>
+</lenguaje>

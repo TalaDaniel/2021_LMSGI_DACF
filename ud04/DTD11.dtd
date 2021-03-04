@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT catalogo (portatil)*>
+<!ATTLIST catalogo
+    tienda CDATA #IMPLIED
+  >
+
+<!ELEMENT portatil (referencia,nombre,fabricante,procesador,ram,disco,pantalla,gráfica,fotos)*>
+
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia
+    id_ref CDATA #IMPLIED
+  >
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+    id_nombre CDATA #IMPLIED
+  >
+
+<!ELEMENT fabricante EMPTY>
+<!ATTLIST fabricante
+    nombre CDATA #IMPLIED
+  >
+
+<!ELEMENT procesador (nombre_procesador,cache,num_procesadores,velocidad)*>
+
+<!ELEMENT nombre_procesador (#PCDATA)>
+<!ATTLIST nombre_procesador
+    nombre_pro CDATA #IMPLIED
+  >
+
+<!ELEMENT cache (#PCDATA)>
+<!ATTLIST cache
+    tamaño CDATA #IMPLIED
+  >
+
+<!ELEMENT num_procesadores (#PCDATA)>
+<!ATTLIST num_procesadores
+    numero CDATA #IMPLIED
+  >
+
+<!ELEMENT velocidad (#PCDATA)>
+<!ATTLIST velocidad
+    Ghz CDATA #IMPLIED
+  >
+
+<!ELEMENT ram (memoria,tipo)*>
+
+<!ELEMENT memoria (#PCDATA)>
+<!ATTLIST memoria
+    tamaño_mem CDATA #REQUIRED
+  >
+
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo
+    tipo_mem CDATA #REQUIRED
+  >
+
+<!ELEMENT disco (SSD,HDD)*>
+
+<!ELEMENT SSD (#PCDATA)>
+<!ATTLIST SSD
+    tamaño_ssd CDATA #IMPLIED
+  >
+
+<!ELEMENT HDD (#PCDATA)>
+<!ATTLIST HDD
+    tamaño_hdd CDATA #IMPLIED
+  >
+
+<!ELEMENT pantalla (dimensión,resolución)*>
+
+<!ELEMENT dimensión (#PCDATA)>
+<!ATTLIST dimensión
+    pulgadas CDATA #IMPLIED
+  >
+
+<!ELEMENT resolución (#PCDATA)>
+<!ATTLIST resolución
+    num_px CDATA #IMPLIED
+  >
+
+<!ELEMENT gráfica (#PCDATA)>
+<!ATTLIST gráfica
+    modelo CDATA #IMPLIED
+  >
+
+<!ELEMENT fotos (#PCDATA)>
+<!ATTLIST fotos
+    almacenadas CDATA #IMPLIED
+  >
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"> 
+    <xs:element name="formulario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="datos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="direccion" type="xs:string"/>
+                            <xs:element name="email" type="xs:string"/>
+                            <xs:element name="telefono" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="consolas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="consola" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:attribute name="switch" use="required" >
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="consola" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="ps5" use="required" >
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="consola">
+                                <xs:complexType>
+                                    <xs:attribute name="SerieX" use="required" >
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                         
+                <xs:element name="establecimiento">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigoPostal">
+                                <xs:complexType>
+                                    <xs:attribute name="direccion">
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="satisfaccion">      
+                                <xs:complexType>
+                                    <xs:attribute name="nota" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="tiempoTecnologia" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>    
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

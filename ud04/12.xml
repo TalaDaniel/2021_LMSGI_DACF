@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas SYSTEM '12.dtd'>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="12.xsd">
+    <receta plato="primero">
+        <nombre>Risotto milanesa</nombre>
+        <descripcion></descripcion>
+        <tiempo preparacion="40"/>
+        <ingredientes>
+            <ingrediente>
+                <nombreIngrediente>Arroz</nombreIngrediente>
+                <cantidad unidad="gramos">500</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Cebolla Mediana</nombreIngrediente>
+                <cantidad>1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Azafrán</nombreIngrediente>
+                <cantidad unidad="pizca">1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Queso Parmesano</nombreIngrediente>
+                <cantidad unidad="gramos">100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Mantequilla</nombreIngrediente>
+                <cantidad unidad="gramos">100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Sal</nombreIngrediente>              
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Pimienta</nombreIngrediente>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Caldo</nombreIngrediente>
+                <cantidad unidad="mililitros">1000</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombreIngrediente>Vino Blanco</nombreIngrediente>
+                <cantidad unidad="chorro">1</cantidad>
+            </ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Picamos la cebolla y la pochamos con la mitad de la mantequilla</paso>
+            <paso>Cuando esté transparente, echamos el azafrán, el vino y dejamos que reduzca</paso>
+            <paso>A continuación, incorporamos el arroz, lo sofreimos un poco</paso>
+            <paso>Vamos añadiendo el caldo caliente poco a poco mientras removemos</paso>
+            <paso>Salpimentamos</paso>
+            <paso>Cuando esté casi hecho, agregamos el resto de la mantequilla y el queso</paso>
+            <paso>Servimos enseguida</paso>
+        </instrucciones>   
+    </receta>
+</recetas>

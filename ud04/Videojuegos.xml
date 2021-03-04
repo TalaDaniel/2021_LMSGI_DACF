@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formulario SYSTEM 'Videojuegos.dtd'> 
+<formulario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Videojuegos.xsd"> 
+    <datos>
+        <nombre>Daniel</nombre>
+        <direccion>C/AvenidaConsolas</direccion>
+        <email>videojuegos@gmail.com</email>
+        <telefono>007691233</telefono>
+    </datos>
+    <consolas>
+        <nintendo consola="switch"/>
+        <playstation consola="ps5"/>
+        <xbox consola="SerieX"/>
+    </consolas>
+    <establecimiento>
+        <codigoPostal direccion="49600"/>
+        <satisfaccion nota="9"/> 
+        <tiempoTecnologia></tiempoTecnologia>
+    </establecimiento>
+</formulario>
