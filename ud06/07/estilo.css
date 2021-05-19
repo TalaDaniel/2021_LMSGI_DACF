@@ -1,0 +1,36 @@
+﻿html, body, h1, h2, h3{
+	margin:0 0;
+	font-family: Arial, Verdana, sans-serif;
+	}
+
+#contenido {
+	width: 860px;
+	margin:0 auto;
+	}
+	
+#contenido h1, #contenido h2, #contenido h3 {
+	/* padding: 5px 10px; */
+	}
+
+#contenido fieldset {
+	background-color: black;
+	margin: 5px;
+	}
+#contenido form p {
+	text-align: center;
+	}
+#contenido .pregunta  {
+	font-weight: bold;
+	border: 2px solid grey;
+	/* margin: 4px; */
+	background-color: white;
+	}	
+#contenido .respuesta {
+	border: 2px dotted grey;
+	font-weight: initial;
+	 /* padding: 2px; */
+	margin:2px; 
+}
+#contenido .respuesta:hover {
+	background-color: #e6d4d4;
+	}

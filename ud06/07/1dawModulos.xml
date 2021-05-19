@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modulos>    
+    <modulo codM="EDD" >Entornos de Desarrollo</modulo>
+    <modulo codM="LMSGI">Lenguaje de Marcas y Sistemas de Gestion de la Información</modulo>
+    <modulo codM="PROG">Programación</modulo>
+    <modulo codM="BBDD">Bases de Datos</modulo>
+    <modulo codM="FOL">Formación y orientación laboral</modulo>
+    <modulo codM="SINF">Sistemas de Información</modulo>
+</modulos>
